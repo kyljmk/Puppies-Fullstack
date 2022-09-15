@@ -60,7 +60,7 @@ function App() {
     }
     return (
     <div className="App">
-    <h1>Puppies app</h1>
+    <h1 className="app__title">Puppies React App</h1>
     <Form puppieToUpdate={puppieToUpdate} addPuppie={addPuppie} updatePuppie={updatePuppie}/>
     {!puppies.length ? <h2>Loading...</h2> : <Puppies
     getPuppie={getPuppie}
