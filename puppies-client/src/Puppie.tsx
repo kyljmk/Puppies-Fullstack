@@ -10,8 +10,8 @@ function Puppie({ puppie, deletePuppie, getPuppie, updatePuppie }: PuppieProps) 
     deletePuppie(id);
   }
   return(
-  <div className='puppie' onClick={() => setIsShowing(!isShowing)}>
-    <img className={isShowing ? 'puppie__img imgSmall' : 'puppie__img'} src={puppie.imgUrl} alt="dog" />
+  <div className='puppie' >
+    <img onClick={() => setIsShowing(!isShowing)} className={isShowing ? 'puppie__img imgSmall' : 'puppie__img'} src={puppie.imgUrl} alt="dog" />
     <h3 className='puppie__title' >{puppie.name}</h3>
     {isShowing ? 
     <>

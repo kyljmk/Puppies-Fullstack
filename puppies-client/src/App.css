@@ -31,7 +31,6 @@ display: grid;
   background-color: var(--darkGreen);
   border-radius: 12px;
   padding: 20px;
-  cursor: pointer;
   display: flex;        
   flex-direction: column;
   height: 400px;
@@ -45,6 +44,7 @@ display: grid;
   height: 300px;
   margin: auto;
   transition: 500ms;
+  cursor: pointer;
 }
 .imgSmall{
  width: 150px; 
